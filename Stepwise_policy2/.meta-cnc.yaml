@@ -1,10 +1,10 @@
 # skillet preamble information used by panhandler
 # ---------------------------------------------------------------------
 # unique snippet name
-name: mySkillet
+name: StepwisePolicy2-specific URL
 # label used for menu selection
 label: my_skillet_label
-description: This Skillet is to setup Pre-defined Log filter as Stepwise Policy
+description: Predefined Log Filter checking a specific URL  with Auto-Tag for stepwise security policies
 
 # type of device configuration
 # common types are panorama, panos, and template
