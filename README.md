@@ -47,8 +47,7 @@ Tag name, Tag color, Dynamic IP list name,log forwarding name, filter name….
 ~~~~
 
 ~~~~
-  Filter: ((threat-type eq vulnerability) or (threat-type eq scan) or (threat-type eq wildfire-virus) or (threat-type eq spyware) or (threat-type eq attack)) and (severity geq medium)
-  Target: Destination
+(url contains “variable”) (for example www.XXX.com)
 ~~~~
 
 ### Strict Policy:
