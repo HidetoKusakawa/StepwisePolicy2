@@ -44,6 +44,10 @@ variables:
         value: color6
       - key: red
         value: color1
+  - name: url_strings
+    description: url strings  match criteria for example www.xxx.com
+    default: www.xxx.com
+    type_hint: text
  
 # ---------------------------------------------------------------------
 # end of variables section

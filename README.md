@@ -43,11 +43,11 @@ Tag name, Tag color, Dynamic IP list name,log forwarding name, filter name….
 
 ### Predefined filter:  
 ~~~~
-  Type: threat
+  Type: url
 ~~~~
 
 ~~~~
-(url contains “variable”) (for example www.XXX.com)
+(url contains “variable”) #for example www.XXX.com
 ~~~~
 
 ### Strict Policy:

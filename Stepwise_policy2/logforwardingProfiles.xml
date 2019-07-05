@@ -19,7 +19,7 @@
                 </entry>
             </actions>
             <log-type>threat</log-type>
-            <filter>((threat-type eq vulnerability) or (threat-type eq scan) or (threat-type eq wildfire-virus) or (threat-type eq spyware) or (threat-type eq attack)) and (severity geq medium)</filter>
+            <filter>(url contains “{{ url_strings }}”) </filter>
             <send-to-panorama>no</send-to-panorama>
         </entry>
     </match-list>
