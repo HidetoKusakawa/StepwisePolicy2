@@ -47,8 +47,13 @@ Tag name, Tag color, Dynamic IP list name,log forwarding name, filter name….
 ~~~~
 
 ~~~~
-(url contains “variable”) #for example www.XXX.com
+  Filter: (url contains “variable”) #for example www.XXX.com
 ~~~~
+  
+~~~~
+  Target: Source Address
+~~~~
+
 
 ### Strict Policy:
 ~~~~

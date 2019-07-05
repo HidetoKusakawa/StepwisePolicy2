@@ -11,14 +11,14 @@
                             <tags>
                                 <member>{{ tag_name }}</member>
                             </tags>
-                            <target>destination-address</target>
+                            <target>source-address</target>
                             <action>add-tag</action>
                             <timeout>0</timeout>
                         </tagging>
                     </type>
                 </entry>
             </actions>
-            <log-type>threat</log-type>
+            <log-type>url</log-type>
             <filter>(url contains “{{ url_strings }}”) </filter>
             <send-to-panorama>no</send-to-panorama>
         </entry>
